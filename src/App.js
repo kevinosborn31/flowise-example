@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import { BubbleChat } from 'flowise-embed-react'
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           Learn React
         </a>
       </header>
+      <BubbleChat chatflowid="3fc1633b-8afd-4d1f-b5d4-581afb67a3e9" apiHost="http://localhost:3000" />
     </div>
   );
 }
